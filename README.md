@@ -2,7 +2,7 @@
 
 HTML5 Canvas Pong Game
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/xU9-7S9IbDE)
 
 # Development Environment
 For this project I used JavaScript and HTML5. 
