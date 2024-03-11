@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong</title>
+  </head>
+  <body>
+    <style>
+      html {
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+      }
+
+      canvas {
+        border: 1px solid #fff;
+      }
+
+      .scoreboard {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+      }
+    </style>
+    <div>
+      <div class="scoreboard">
+        <div>
+          P1
+          <div id="p1Score"></div>
+        </div>
+        <div>
+          P2
+          <div id="p2Score"></div>
+        </div>
+      </div>
+      <canvas
+        id="pongCanvas"
+        class="canvas"
+        width="800"
+        height="400"
+        tabindex="1"
+      ></canvas>
+    </div>
+
+    <script src="pong.js"></script>
+  </body>
+</html>
